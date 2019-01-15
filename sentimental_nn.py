@@ -68,4 +68,3 @@ def training_neural_network(x):
         print('Accuracy:',accuracy.eval({x:test_x, y:test_y}))
 
 training_neural_network(x)
-
